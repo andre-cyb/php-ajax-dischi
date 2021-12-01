@@ -1,0 +1,44 @@
+*{
+    font-family: 'Montserrat', sans-serif; 
+}
+
+
+.header {
+    background-color: #2b3a46;
+    padding: 12px;
+}
+
+.main {
+    display: flex;
+    background-color: #192d3b;
+    height: calc(100vh - 66px);
+}
+.my_container {
+    max-width: 1180px;
+    margin: auto;
+}
+.my_card {
+    color: white;
+    padding: 15px;
+    margin: 20px;
+    background-color: #2b3a46;
+}
+
+
+.my_card img {
+    width: 100%;
+}
+.my_card h4 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 22px;
+}
+.my_card span {
+    display: block;
+    color: #808080;
+    font-weight: 700;
+}
+.my_card small {
+    color: #808080;
+    font-weight: 700;
+}
