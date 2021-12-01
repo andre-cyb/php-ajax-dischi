@@ -26,9 +26,6 @@ new Vue({
     mounted() {
         axios.get("http://localhost/php-ajax-dischi-1/Milestone-2/Data/data.php").then((resp) => {
             this.songs = resp.data.response;
-
-
-
         });
     }
 });

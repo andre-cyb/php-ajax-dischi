@@ -14,7 +14,6 @@ axios.get("http://localhost/php-ajax-dischi-1/Milestone-2/Data/data.php").then((
                         </div>`;
 
         cardContainer.innerHTML += songCard;
-
     });
 });
 
